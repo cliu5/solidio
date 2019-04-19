@@ -7,7 +7,7 @@ import random
 def scanline_convert(polygons, i, screen, zbuffer ):
 
     color=[random.randint(0,255), random.randint(0,255), random.randint(0,255)]
-    #Got this idea from Emily Lee (she helped a lot withcoding this
+    #Got this idea from Emily Lee (she helped me a lot with coding this assignment)
     points=polygons[i:i+3]
     points.sort(key=lambda x:x[1])
 
